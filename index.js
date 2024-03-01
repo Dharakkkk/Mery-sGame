@@ -13,7 +13,7 @@ const GAME_WIDTH = 800;
 const GAME_HEIGHT = 800;
 const PLAYER_WIDTH = 320 / 1.5; //58
 const PLAYER_HEIGHT = 160 / 1.5; //62
-const MAX_JUMP_HEIGHT = GAME_HEIGHT;
+const MAX_JUMP_HEIGHT = 600;
 const MIN_JUMP_HEIGHT = 150;
 const GROUND_WIDTH = 2400;
 const GROUND_HEIGHT = 24;
@@ -154,7 +154,7 @@ function showStartGameText() {
   ctx.fillStyle = "grey";
   const x = canvas.width / 14;
   const y = canvas.height / 2;
-  ctx.fillText("Naciśnij ekran bądz spacje", x, y);
+  ctx.fillText("Naciśnij ekran bądz spacje bądz nie", x, y);
 }
 
 function updateGameSpeed(frameTimeDelta) {
