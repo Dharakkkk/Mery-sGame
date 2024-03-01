@@ -9,8 +9,8 @@ const ctx = canvas.getContext("2d");
 const GAME_SPEED_START = 1; // 1.0
 const GAME_SPEED_INCREMENT = 0.00001;
 
-const GAME_WIDTH = 800;
-const GAME_HEIGHT = 200;
+const GAME_WIDTH = 900;
+const GAME_HEIGHT = 600;
 const PLAYER_WIDTH = 320 / 1.5; //58
 const PLAYER_HEIGHT = 160 / 1.5; //62
 const MAX_JUMP_HEIGHT = GAME_HEIGHT;
