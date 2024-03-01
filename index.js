@@ -124,7 +124,7 @@ function showGameOver() {
   ctx.fillStyle = "grey";
   const x = canvas.width / 4.5;
   const y = canvas.height / 2;
-  ctx.fillText("GAME OVER", x, y);
+  ctx.fillText("Koniec tego dobrego!", x, y);
 }
 
 function setupGameReset() {
@@ -154,7 +154,7 @@ function showStartGameText() {
   ctx.fillStyle = "grey";
   const x = canvas.width / 14;
   const y = canvas.height / 2;
-  ctx.fillText("Tap Screen or Press Space To Start", x, y);
+  ctx.fillText("Naciśnij ekran bądz spacje", x, y);
 }
 
 function updateGameSpeed(frameTimeDelta) {
