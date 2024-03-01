@@ -10,9 +10,9 @@ const GAME_SPEED_START = 1; // 1.0
 const GAME_SPEED_INCREMENT = 0.00001;
 
 const GAME_WIDTH = 800;
-const GAME_HEIGHT = 800;
-const PLAYER_WIDTH = 320 / 1.5; //58
-const PLAYER_HEIGHT = 160 / 1.5; //62
+const GAME_HEIGHT = 600;
+const PLAYER_WIDTH = 420 / 1.5; //58
+const PLAYER_HEIGHT = 560 / 1.5; //62
 const MAX_JUMP_HEIGHT = 600;
 const MIN_JUMP_HEIGHT = 150;
 const GROUND_WIDTH = 2400;
@@ -154,7 +154,7 @@ function showStartGameText() {
   ctx.fillStyle = "grey";
   const x = canvas.width / 14;
   const y = canvas.height / 2;
-  ctx.fillText("Naciśnij ekran bądz spacje bądz nie", x, y);
+  ctx.fillText("Naciśnij ekran bądz spacjee", x, y);
 }
 
 function updateGameSpeed(frameTimeDelta) {
