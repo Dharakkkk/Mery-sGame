@@ -161,7 +161,7 @@ function showStartGameText() {
   ctx.fillStyle = "grey";
   const x = canvas.width / 14;
   const y = canvas.height / 2;
-  ctx.fillText("Naciśnij ekran bądz spacjee", x, y);
+  ctx.fillText("Naciśnij ekran bądz spacje", x, y);
 }
 
 function updateGameSpeed(frameTimeDelta) {
