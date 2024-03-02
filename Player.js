@@ -67,6 +67,8 @@ export default class Player {
   keyup = (event) => {
     if (event.code === "Space") {
       this.jumpPressed = false;
+      const ihaha = new Audio('images/ihaha.mp4');
+      ihaha.play();
     }
   };
 

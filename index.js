@@ -118,6 +118,9 @@ function getScaleRatio() {
   }
 }
 
+// Definicja dźwięku porażki
+const deathSound = new Audio('images/smutnasprawa.mp4'); // Zalecane jest przeniesienie do folderu 'sounds'
+
 function showGameOver() {
   const fontSize = 70 * scaleRatio;
   ctx.font = `${fontSize}px Verdana`;
@@ -125,6 +128,9 @@ function showGameOver() {
   const x = canvas.width / 4.5;
   const y = canvas.height / 2;
   ctx.fillText("Koniec tego dobrego!", x, y);
+
+  // Odtwórz dźwięk porażki
+  deathSound.play();
 }
 
 function setupGameReset() {
