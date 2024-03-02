@@ -134,11 +134,6 @@ function showGameOver() {
   }
 }
 
-function reset() {
-  // Reszta kodu resetującego grę...
-  deathSoundPlayed = false; // Pozwól na ponowne odtworzenie dźwięku przy następnym game over
-}
-
 function setupGameReset() {
   if (!hasAddedEventListenersForRestart) {
     hasAddedEventListenersForRestart = true;
@@ -151,6 +146,7 @@ function setupGameReset() {
 }
 
 function reset() {
+  deathSoundPlayed = false; // Pozwól na ponowne odtworzenie dźwięku przy następnym game over
   hasAddedEventListenersForRestart = false;
   gameOver = false;
   waitingToStart = false;
